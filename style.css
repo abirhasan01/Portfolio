@@ -161,7 +161,7 @@ body {
     background-color: white;
     width: 40px;
     height: 40px;
-    margin: 0rem 0.5rem;
+    margin: 0.5rem 1rem;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -509,7 +509,15 @@ body {
 
 .main-section-link {
     width: 45px;
+    height: auto;
 }
+ .main-btn {
+    padding: 5px;
+    font-size: 1.1rem;
+    width: 9rem;
+    height: 3rem;
+    }
+
 /* main section ed */
 
 /* about me st */
@@ -591,13 +599,13 @@ body {
     font-size: 2rem;
 }
  .main-btn {
-
-    font-size: 0.8rem;
-    width: 7rem;
+    padding: 0px;
+    font-size: 1.rem;
+    width: 8rem;
     height: 3rem;
     }
 .main-section-link {
-    width: 35px;
+    width: 40px;
 }
 /* main section ed */
     /* skills st */
