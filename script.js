@@ -32,3 +32,9 @@ const lightControl = () => {
   });
 };
 lightControl();
+
+// loading
+window.addEventListener("load", () => {
+  let loading = document.querySelector(".loading");
+  loading?.classList.add("loading-hidden");
+});
