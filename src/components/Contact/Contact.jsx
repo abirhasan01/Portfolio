@@ -6,10 +6,10 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="h-[40vh] flex justify-center items-center flex-col space-y-5"
+      className="h-[40vh] flex justify-center items-center flex-col"
     >
       <motion.div
-        initial={{ scale: 0.2, filter: "blur(10px)" }}
+        initial={{ scale: 0.2, filter: "blur(20px)" }}
         whileInView={{ scale: 1, filter: "blur(0px)" }}
         transition={{ duration: 0.9, ease: easeOut }}
         viewport={{ once: true, amount: 0.5 }}
@@ -18,7 +18,7 @@ const Contact = () => {
         Get In Touch
       </motion.div>
       <motion.div
-        initial={{ scale: 0.2, filter: "blur(10px)" }}
+        initial={{ scale: 0.2, filter: "blur(20px)" }}
         whileInView={{ scale: 1, filter: "blur(0px)" }}
         transition={{ duration: 0.8, ease: easeInOut }}
         viewport={{ once: true, amount: 0.5 }}
