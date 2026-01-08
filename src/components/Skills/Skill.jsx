@@ -17,7 +17,7 @@ const Skill = () => {
 
   return (
     <div
-      id="skill"
+      id="skills"
       className={`w-screen md:min-h-screen flex justify-center items-center flex-col pt-25 transition-opacity duration-500 `}
     >
       <ScrollFloat

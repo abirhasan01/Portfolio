@@ -1,8 +1,8 @@
 import {
-    motion,
-    useAnimationFrame,
-    useMotionValue,
-    useTransform,
+  motion,
+  useAnimationFrame,
+  useMotionValue,
+  useTransform,
 } from "motion/react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
