@@ -29,19 +29,17 @@ const Home = () => {
 
   return (
     <div
-      // ref={ref}
       id="/"
       className={`flex flex-col space-y-10 justify-center items-center h-[100vh] w-screen`}
     >
       <div className="">
         <motion.img
           initial={animation.initial}
-          // animate={isInView ? animation.animate : animation.initial}
           whileInView={animation.animate}
           transition={animation.transition}
           viewport={{ once: true }}
           className="w-30 h-30 sm:w-40 sm:h-40 rounded-full object-cover"
-          src="/me.jpg"
+          src="/me.webp"
         />
       </div>
       <div className="text-center space-y-2">
