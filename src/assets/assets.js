@@ -4,6 +4,7 @@ import Frontend_logo from "./frontend.png";
 import project1 from "./project1.png";
 import project2 from "./project2.png";
 import project3 from "./project3.png";
+import project4 from "./project4.png";
 import React_Logo from "./reactjs.png";
 import Tools_logo from "./tools.png";
 
@@ -12,6 +13,7 @@ export const assets = {
   project1,
   project2,
   project3,
+  project4,
   Database_logo,
   Frontend_logo,
   Backend_logo,
@@ -36,6 +38,12 @@ export const projectDetails = {
     name: "Echozy",
     github: "https://github.com/abirhasan01/Echozy",
     live: "",
+  },
+  Project4: {
+    img: project4,
+    name: "ReadNest",
+    github: "https://github.com/abirhasan01/ReadNest",
+    live: "https://readnest-rho.vercel.app/",
   },
 };
 

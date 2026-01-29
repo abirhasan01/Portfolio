@@ -35,6 +35,7 @@ const Projects = () => {
         <ProjectCard data={projectDetails.Project1} />
         <ProjectCard data={projectDetails.Project2} />
         <ProjectCard data={projectDetails.Project3} />
+        <ProjectCard data={projectDetails.Project4} />
       </motion.div>
     </div>
   );
